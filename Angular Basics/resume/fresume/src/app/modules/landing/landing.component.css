@@ -1,0 +1,17 @@
+.ima {
+    max-width: 400px;
+    opacity: 0.3;
+  }
+
+.c{
+    position: relative;
+}
+
+.content{
+  position: absolute;
+  width: 90%;
+  top: 35%;
+  left: 35%;
+  transform: translate(-40%, -50%);
+  z-index: 1;
+}
