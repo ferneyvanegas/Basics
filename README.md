@@ -9,5 +9,5 @@ Contiene ejercicios básicos de programación
 * Angular Basics: Contiene ejercicios sencillos de programación HTML|CSS, apoyados con framework ángular
 
 ------
-:memo: _Todo el mundo debería aprender a programar, porque te enseña a pensar_ -  **Steve Jobs**|
+:memo: _Todo el mundo debería aprender a programar, porque te enseña a pensar_ -  **Steve Jobs**
 

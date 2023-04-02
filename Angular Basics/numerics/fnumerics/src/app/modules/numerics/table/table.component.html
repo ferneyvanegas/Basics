@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <!--Número-->
+        <div class="col-12 col-sm-6">
+            <p class="text-center mt-5">
+                <label for="num_table" class="text-primary">
+                    <small>
+                        <em>
+                            Ingresa número para generar la tabla
+                        </em>
+                    </small>
+                </label><br>
+                <input type="text"
+                id="num_table"
+                class="form-control"
+                [(ngModel)]="num"
+                (keyup)="setTableResults()"
+                style="font-size: 40px; text-align: center;">
+            </p>
+        </div>
+        <!--Tabla-->
+        <div class="col-12 col-sm-6 mt-5">
+            <p class="h4 text-center">
+                Tabla del {{num}}
+            </p>
+            <div class="alert alert-success m-0 p-0" *ngFor="let num of table">
+                    <p class="text-center">
+                        {{num}}
+                    </p>
+            </div>
+        </div>
+    </div>
+</div>
